@@ -1,0 +1,38 @@
+@font-face {
+    font-family: 'tou6';
+    src: url('fonts/DFPPOPCorn-W12/DFPPOPCorn-W12.eot');
+    src: local('DFPPOPCornW12'),
+        url('fonts/DFPPOPCorn-W12/DFPPOPCorn-W12.woff') format('woff'),
+         url('fonts/DFPPOPCorn-W12/DFPPOPCorn-W12.woff2') format('woff2')
+        url('fonts/DFPPOPCorn-W12/DFPPOPCorn-W12.ttf') format('ttf'),
+        url('fonts/DFPPOPCorn-W12/DFPPOPCorn-W12.svg') format('svg');
+}
+
+body {
+    font-family: 'tou6';
+    font-size: 86%;
+}
+
+h1 {
+    border-style: double;
+    color: fuchsia;
+    text-align: center;
+}
+
+h2 {
+    color: fuchsia;
+    margin-bottom: 0px;
+    font-size: 100%;
+}
+
+li {
+    font-style: italic;
+}
+
+q {
+    font-style: italic;
+}
+
+p {
+    margin-top: 2px;
+}
