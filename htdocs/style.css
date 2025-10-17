@@ -8,13 +8,40 @@
         url('fonts/DFPPOPCorn-W12/DFPPOPCorn-W12.svg') format('svg');
 }
 
+.LeftPanel {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    padding-left: 10px;
+    width: 150px;
+    min-height: 100%;
+    background-color:#eee;
+    border-right-width: solid;
+    padding-bottom: 8px;
+}
+
+.MiddlePanel {
+    margin-left: 150px;
+    border-left-width: 1px;
+    border-right-width: 0px;
+    border-top-width: 0px;
+    border-bottom-width: 0px;
+    border-style: solid;
+    padding-top: 0px;
+}
+
+.BodyContainer {
+    position: absolute;
+    max-width: 1000px;
+    min-width: 100px;
+}
+
 body {
     font-family: 'tou6';
     font-size: 86%;
 }
 
 h1 {
-    border-style: double;
     color: fuchsia;
     text-align: center;
 }
